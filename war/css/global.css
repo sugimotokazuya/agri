@@ -1,0 +1,115 @@
+@CHARSET "utf-8";
+
+body { 
+	background-color: white; 
+	font-size:large;
+}
+div.title {
+font-size:x-large;
+width:100%;
+border-bottom:2px solid orange;
+padding:5px;
+margin:5px 0px 20px 0px;
+}
+span.err {
+	font-size:small;
+	background-color:#ff8888;
+	color:#aa0000;
+}
+input.sehi { background-color:lightyellow;}
+input.err { background-color: #ff8888; }
+div.header {
+	background-color: DarkBlue;
+	color:white;
+	font-weight:bold;
+	font-size:normal;
+	padding-right:5px;
+	width:100%;
+	text-align:right;
+}
+
+input,select {
+	font-size:xx-large;
+}
+option {
+	font-size:x-large;
+}
+input.num {
+	text-align:right;
+	width:80%;
+}
+input.tanni {
+	text-align:left;
+	width:100%;	
+}
+input.year {
+	width:30%;
+	text-align:right;
+}
+input.month {
+	width:15%;
+	text-align:right;
+}
+input.day {
+	width:15%;
+	text-align:right;
+}
+input.w100 {
+	width:100%;
+}
+input.w50 {
+	width:200px;
+	height:80px;
+	background-color:lightsteelblue;
+	color:white;
+	border-color: lightsteelblue;
+}
+input.w20 {
+	width:120px;
+	height:40px;
+	font-size:x-large;
+	background-color:lightsteelblue;
+	color:white;
+	border-color: lightsteelblue;
+}
+select.w60 {
+	width:60%;
+}
+table {
+	background-color:gray;
+}
+th {
+	background-color:#dddddd;
+	font-size:large;
+}
+td {
+background-color:white;
+font-size:small;
+padding: 5px 0px;
+}
+td.num{
+text-align:right;
+}
+td.min {
+	background-color:lightskyblue;
+}
+td.max {
+	background-color:tomato;
+}
+
+h3 {
+	font-size:normal;
+	margin:5px;
+}
+
+dl {
+	margin:0px;
+}
+
+dt {
+	font-size:normal;
+	margin-left:10px;
+	}
+dd {
+	font-size:small;
+}

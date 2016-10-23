@@ -1,0 +1,19 @@
+@CHARSET "utf-8";
+
+body { 
+	font-size:large;
+}
+table {
+	background-color:gray;
+}
+th {
+	font-size:small;
+}
+td {
+background-color:white;
+font-size:x-small;
+padding: 2px 0px;
+}
+td.num{
+text-align:right;
+}

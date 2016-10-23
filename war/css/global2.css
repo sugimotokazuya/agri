@@ -1,0 +1,662 @@
+@charset "UTF-8";
+
+body { 
+font-family:'メイリオ','Hiragino Kaku Gothic Pro', sans-serif;
+margin:0px;
+	}
+
+/* ヘッダー　============================================================ */
+
+div.header:after {
+content:"";
+display:block;
+clear:both;
+}
+
+div.header-title {
+	margin-left:10px;
+	float:left;
+}
+
+div.header-name {
+	float:right;
+	vertical-align:middle;
+	padding-top:10px;
+	padding-right:20px;
+}
+
+div.header-title h1 {
+	font-size:20px;
+	margin:5px;
+}
+
+div.header-title h1 i.fa-sun-o {
+	color:#ebc061;
+	font-size:30px;
+}
+
+div.header-title h1 i.fa-cloud {
+	color:#b8b2d6;
+	font-size:18px;
+	margin-left:-22px;
+}
+
+div.header div.toggle {
+	display:none;
+}
+
+/* メニュー　============================================================ */
+div.menu {
+	background-color:#b3ce5b;
+	padding-left:10px;
+}
+
+div.menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+div.menu ul:after {
+content:"";
+display:block;
+clear:both;
+}
+
+div.menu li {
+	float:left;
+	width:auto;
+}
+
+div.menu li a {
+	display:block;
+	padding:5px;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+div.menu li a:hover {
+	background-color:#f8e352;
+	color:#b3ce5b;
+	font-weight:bold;
+}
+
+td.alert{
+	background-color:#f8e352;
+}
+
+
+
+/* サイドメニューとコンテンツ　============================================================ */
+
+div.contentBox {
+	position:relative;
+	z-index:10;
+}
+
+div.contentBox:after {
+content:"";
+display:block;
+clear:both;
+}
+
+/* サイドメニュー　============================================================ */
+div.side {
+	width:200px;
+	padding:0px 20px;
+	float:left;
+	top:0px;
+	left:0px;
+	position:absolute;
+}
+
+div.side h1 {
+	font-size:18px;
+	color:#d7847e;
+	border-bottom:2px dotted #d7847e;
+}
+
+div.side h1 i {
+	color:#d7847e;
+	font-size:25px;
+}
+
+div.side dl {
+	margin:0px;
+}
+
+div.side dt {
+	font-size:15px;
+}
+
+div.side dt div.date {
+	font-size:14px;
+}
+
+div.side dd {
+	font-size:12px;
+	margin-left:15px;
+}
+
+div.side ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+div.side li {
+	width:auto;
+	font-size:13px;
+}
+
+
+div.side span.small {
+	font-size:15px;
+}
+
+div.side a {
+	color:#c83955;
+	text-decoration:none;
+}
+
+div.side a:hover {
+	color:#555555;
+}
+
+div.side p#time {
+	color:#555555;
+	text-align:center;
+}
+
+/* コンテンツ　============================================================ */
+div.content {
+	float:none;
+	width:auto;
+	margin-left:250px;
+	margin-right:20px;
+}
+
+div.content h1 {
+	font-size:24px;
+	color:#555555;
+}
+
+div.content h1 span.small {
+	font-size:18px;
+}
+
+div.content h1 span.strong {
+	color:#d7847e;
+	font-weight:bold;
+	margin: 0px 5px;
+}
+
+div.content h2 {
+	border-left: 15px solid #b8b2d6;
+	padding:5px;
+	font-weight:normal;
+}
+
+div.content h2 span.small {
+	font-size:16px;
+	color:#555555;
+}
+
+div.content h2 a {
+	text-decoration:none;
+	color:#555555;
+}
+
+div.content h2 a:hover {
+	text-decoration:underline;
+}
+
+div.content h3 {
+	font-weight:normal;
+	font-size:16px;
+}
+
+div.content button {
+	font-size:16px;
+	margin:5px;
+	
+}
+
+div.content button.small {
+	font-size:12px;
+	margin:1px;
+	
+}
+
+div.content table {
+	border-collapse: collapse;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc; 
+	color: #333;
+	margin:5px 0px;
+}
+
+div.print table {
+	border-collapse: collapse;
+	border-left: 1px solid black;
+	border-top: 1px solid black; 
+	color: #333;
+	margin:5px 0px;
+}
+
+div.content table tr th {
+	text-transform: uppercase;
+	background: #e2e2e2;
+}
+
+div.print table tr th {
+	text-transform: uppercase;
+	background: #e2e2e2;
+}
+
+div.content table td, table th {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	line-height: 18px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+div.print table td, div.print table th {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	line-height: 18px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+div.content table tr.odd th, table tr.odd td {
+	background-color: #f9f9f9;
+}
+
+ div.content table tr.odd td.alert {
+ 	background-color:#f8e352;
+ }
+
+div.content table tr.red td {
+	background-color: #f2dae8;
+}
+
+div.content table a {
+	color:#c83955;
+	text-decoration:none;
+}
+
+div.content table tr td i {
+	color:#c83955;
+	cursor:pointer;
+}
+
+div.content table td.middle {
+	vertical-align:middle;
+}
+ div.content table td.num {
+ 	text-align:right;
+ }
+
+div.content table tr.hide {
+	display:none;
+}
+
+div.content input.w300 {
+	width:300px;
+	font-size:18px;
+}
+
+div.content input.w200 {
+	width:200px;
+	font-size:18px;
+}
+
+div.content input.w50 {
+	width:50px;
+	font-size:18px;
+}
+
+div.content input.w75 {
+	width:75px;
+	font-size:18px;
+}
+
+div.content input.w125 {
+	width:125px;
+	font-size:18px;
+}
+
+div.content input.w25 {
+	width:25px;
+	font-size:18px;
+}
+
+div.content input.w25 {
+	width:25px;
+	font-size:18px;
+}
+
+div.content textarea.area500x70 {
+	width:500px;
+	height:70px;
+}
+
+div.content input.num {
+	text-align:right;
+}
+
+div.content input.err {
+	background-color:#dd9cb4;
+}
+
+div.content span.err {
+	background-color:#dd9cb4;
+	color:#ffffff;
+	padding:3px;
+}
+
+div.content select {
+	font-size:100%;
+}
+
+div.content div.memo {
+	border: 2px dotted #555555;
+	color: #555555;
+	margin: 20px 0px;
+	padding: 10px;
+	background-color:#eeeeee;
+}
+
+div.executing {
+	margin:20px;
+}
+
+div.executing .fa-spin {
+	font-size:30px;
+	color:#ebc061;	
+}
+
+div.content i.fa-chevron-circle-right,div.content i.fa-chevron-circle-down {
+	color:#d7847e;
+	font-size:18px;
+	margin-right:5px;
+}
+
+div.content a {
+	display:block;
+	color:#d7847e;
+	text-decoration:none;
+}
+
+div.content a:hover {
+	font-weight:normal;
+	color:#555555;
+	cursor:pointer;
+}
+
+/* フッター　============================================================ */
+
+div.footer1 {
+	display:none;
+}
+
+div.footer1, div.footer2 {
+	widht:100px;
+	color:#555555;
+	border-top:2px dotted #555555;
+	font-size:14px;
+	padding:5px 0px;
+	margin:10px 0px;
+}
+
+div.footer2:after,div.footer1:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+div.footer2 div.c,div.footer1 div.c {
+	float:left;
+}
+
+div.footer2 div.logout, div.footer1 div.logout {
+	float:right;
+}
+
+div.footer2 a, div.footer1 a {
+	color:#c83955;
+	text-decoration:none;
+}
+
+/* 画像用モーダルウィンドウ　============================================================ */
+div#gazo {
+	position:absolute;
+	display:none;
+	background-color:#afd0ef;
+	z-index:50;
+	border-radius:2px;
+	padding:5px;
+	margin-left:5px;
+}
+
+div#gazo .button {
+	padding:3px 6px;
+	margin:5px 3px;
+	border-radius:3px;
+	cursor:pointer;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	text-align:center;
+	float:left;
+	color:#ffffff;
+}
+
+div#gazo .button2 {
+	background-color:#d7847e;
+	width:30%;
+
+}
+div#gazo .button1 {
+	background-color:#b3ce5b;
+	width:40%;
+}
+
+/* 画像選択用　============================================================ */
+div.gazoBox:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+div.gazo {
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	background-color:#afd0ef;
+	padding:10px;
+}
+div.gazo div.gazoThumb:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+div.gazo div.gazoRedButtons { 
+	font-size:small;
+	float:right;
+	text-align:right;
+}
+div.gazo div.gazoGreenButtons {
+	float:left;
+}
+
+div.gazo div.gazoButton {
+	padding:5px 10px;
+	margin-top:5px;
+	border-radius:5px;
+	cursor:pointer;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+	color:#ffffff;
+	text-align:center;
+}
+div.gazo div.selectButton {
+	background-color:#b3ce5b;
+}
+div.gazo div.deleteButton {
+	background-color:#d7847e;
+	width:50%;
+	float:right;
+}
+div.gazo div.kaijoButton {
+	background-color:#b3ce5b;
+	width:50%;
+	float:right;
+}
+
+/* レスポンシブWebデザイン用　============================================================ */
+/* ================================================================================== */
+@media (max-width:767px) {
+
+div.contentBox {
+	position:static;
+}
+
+/* サイドバー（767px以下用）　============================================================ */
+div.side {
+	position:static;
+	width:auto;
+	padding:0px 20px;
+}
+
+div.side dt {
+	font-size:18px;
+}
+
+div.side dt div.date {
+	font-size:18px;
+}
+
+div.side dd {
+	font-size:16px;
+}
+
+div.side li {
+	font-size:16px;
+}
+
+/* ヘッダー（767px以下用）　============================================================ */
+
+div.header div.header-title {
+	float:none;
+	margin:0px;
+}
+div.header-title h1 {
+	font-size:22px;
+	margin:2px;
+}
+
+div.header-name {
+	font-size:14px;
+	float:left;
+	vertical-align:middle;
+	padding-right:0px;
+	margin:0px;
+}
+
+div.header div.toggle {
+	float:right;
+	display:block;
+	margin:10px;
+}
+
+button#toggleButton {
+	padding:12px 15px;
+	border:1px solid #aaaaaa;
+	border-radius:5px;
+	background-color:#ffffff;
+	cursor:pointer;
+}
+
+button#toggleButton i {
+	font-size:20px;
+}
+	
+/* メニュー（767px以下用）　============================================================ */
+div.menu {
+	padding-left:5px;
+	display:none;
+}
+
+div.menu li {
+	width:100%;
+	font-size:20px;
+}
+
+/* コンテンツ（767px以下用）　============================================================ */
+div.content {
+	width:auto;
+	margin-left:10px;
+	margin-right:20px;
+}
+
+div.content h1 {
+	font-size:18px;
+}
+
+div.content h2 {
+	font-size:18px;
+}
+
+div.content h2 span.small {
+	font-size:14px;
+}
+
+div.content p {
+	font-size:15px;
+}
+
+div.content table td, table th {
+	font-size:12px;
+}
+
+div.content button {
+	font-size:12px;
+}
+
+div.content textarea.area500x70 {
+	width:280px;
+	height:70px;
+}
+
+div.content input.w300 {
+	width:280px;
+}
+
+div.gazoBox {
+	margin-left:-5px;
+}
+
+div.gazo {
+	padding:10px 5px;	
+}
+
+/* フッター（767px以下用）　============================================================ */
+div.footer2 {
+	display:none;
+}
+
+div.footer1 {
+	display:inline;
+	border-width:0px;
+}
+
+div.footer1 div.c {
+	margin-left:10px;
+}
+
+div.footer1 div.logout {
+	margin-right:10px;
+}
+
+}

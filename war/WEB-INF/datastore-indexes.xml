@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datastore-indexes autoGenerate="true">
+	<datastore-index kind="Kamoku" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="kubun" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="auto">
+        <property name="hiduke" direction="desc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="hiduke" direction="asc"/>
+    </datastore-index>
+	<datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="totalUp" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="hiduke" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Torihikisaki" ancestor="false" source="auto">
+        <property name="name" direction="asc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Chokubai" ancestor="false" source="auto">
+        <property name="order" direction="asc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Tekiyo" ancestor="false" source="auto">
+        <property name="kamokuRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sakuduke" ancestor="false" source="manual">
+        <property name="status" direction="asc"/>
+        <property name="startDate" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shukka" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="OneNotice" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="OneNotice" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Hatake" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="area" direction="desc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sakuduke" ancestor="false" source="manual">
+        <property name="status" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="startDate" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="TekiyoShukei" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="year" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Torihikisaki" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Hiryo" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="delete" direction="asc"/>
+        <property name="seibunN" direction="desc"/>
+        <property name="seibunP" direction="desc"/>
+        <property name="seibunK" direction="desc"/>
+        <property name="seibunCa" direction="desc"/>
+        <property name="seibunMg" direction="desc"/>
+        <property name="seibunB" direction="desc"/>
+        <property name="seibunMn" direction="desc"/>
+        <property name="seibunFe" direction="desc"/>
+        <property name="weight" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Sokutei" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="SagyoItem" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Seikyu" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+        <property name="kaishu" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Price" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="price" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Hinmoku" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="order" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shukka" ancestor="false" source="manual">
+        <property name="kaishu" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="RecMail" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sakuduke" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="startDate" direction="desc"/>
+        <property name="status" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="RecMail" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Gazo" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Gazo" ancestor="false" source="manual">
+        <property name="sagyoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Gazo" ancestor="false" source="manual">
+        <property name="use" direction="asc"/>
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Gazo" ancestor="false" source="manual">
+        <property name="sagyoRef" direction="asc"/>
+        <property name="use" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="SagyoUser" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sakuduke" ancestor="false" source="manual">
+        <property name="hatakeRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="hiduke" direction="desc"/>
+        <property name="__key__" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Dakoku" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sagyo" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Teiji" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="end" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="ShuseiShinsei" ancestor="false" source="manual">
+        <property name="shonin" direction="asc"/>
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ShuseiShinsei" ancestor="false" source="manual">
+        <property name="shonin" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ShuseiShinsei" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Hinmoku" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+	<datastore-index kind="User" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="useDakoku" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Chokubai" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="torihikisakiRef" direction="asc"/>
+        <property name="order" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="User" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Kikai" ancestor="false" source="manual">
+        <property name="sagyoItemRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shizai" ancestor="false" source="manual">
+        <property name="sagyoItemRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shukka" ancestor="false" source="manual">
+        <property name="torihikisakiRef" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Torihikisaki" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Kinmuhyo" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Seikyu" ancestor="false" source="manual">
+        <property name="torihikisakiRef" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+        <property name="kaishu" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Teiji" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="start" direction="asc"/>
+        <property name="end" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shift" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shift" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ShukkaKeitai" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="juryo" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="SagyoUser" ancestor="false" source="manual">
+        <property name="userRef" direction="asc"/>
+        <property name="minutes" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="User" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="kakudukeTanto" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Kakuduke" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ShukkaKeitai" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="torihikisakiRef" direction="asc"/>
+        <property name="juryo" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ShukkaKeitai" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="juryo" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sokutei" ancestor="false" source="manual">
+        <property name="hatakeRef" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="User" ancestor="false" source="manual">
+        <property name="delete" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="nendo" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="hiduke" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="karikataKamokuRef" direction="asc"/>
+        <property name="hiduke" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Shiwake" ancestor="false" source="manual">
+        <property name="kashikataKamokuRef" direction="asc"/>
+        <property name="hiduke" direction="asc"/>
+    </datastore-index>
+	<datastore-index kind="Kakuduke" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+        <property name="plus" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="Sagyo" ancestor="false" source="manual">
+        <property name="sagyoItemRef" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Okurisaki" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Okurisaki" ancestor="false" source="manual">
+        <property name="torihikisakiRef" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="Sakuduke" ancestor="false" source="manual">
+        <property name="easyInput" direction="asc"/>
+        <property name="status" direction="asc"/>
+        <property name="yagoRef" direction="asc"/>
+        <property name="startDate" direction="asc"/>
+        <property name="name" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="KakudukeSum" ancestor="false" source="manual">
+        <property name="yagoRef" direction="asc"/>
+        <property name="year" direction="asc"/>
+        <property name="month" direction="asc"/>
+    </datastore-index>
+    
+</datastore-indexes>
